@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>documentos_menu</class>
+ <widget class="QMainWindow" name="documentos_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_documentos_de_pecas02">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>911</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(234, 229, 239);
+border-width:7px;
+font: 75 45pt &quot;Bosch Sans Bold&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>  DOCUMENTOS DE PEÇAS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_documentos_de_pecas01">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(155, 228, 179);
+border-width:7px;
+border-radius: 100px;
+font: 75 50pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Documentos.Peças.png</normaloff>imagens/Documentos.Peças.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>125</width>
+      <height>125</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_diagrama_eletrico02">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>310</y>
+      <width>911</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(234, 229, 239);
+border-width:7px;
+font: 75 45pt &quot;Bosch Sans Bold&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>  DIAGRAMA ELÉTRICO     </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_diagrama_eletrico01">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>290</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 207, 0);
+border-width:7px;
+border-radius: 100px;
+font: 75 50pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Diagrama_eletrico.svg</normaloff>imagens/Diagrama_eletrico.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>160</width>
+      <height>160</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_mae02">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>570</y>
+      <width>911</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bosch Sans Bold</family>
+      <pointsize>45</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(234, 229, 239);
+border-width:7px;
+font: 75 45pt &quot;Bosch Sans Bold&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>  MAPA DE RISCOS            </string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_mae01">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>550</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(101, 106, 111);
+border-width:7px;
+border-radius: 100px;
+font: 75 50pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/MAE.svg</normaloff>imagens/MAE.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>160</width>
+      <height>160</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_home">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>10</y>
+      <width>120</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+border-width:5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Home.Documentos.png</normaloff>imagens/Home.Documentos.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>105</width>
+      <height>105</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

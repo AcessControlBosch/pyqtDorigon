@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Aviso_Liberacao</class>
+ <widget class="QMainWindow" name="Aviso_Liberacao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1270</width>
+      <height>760</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:6px;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_Atencao">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>10</y>
+       <width>451</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 65pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ATENÇÃO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botao_relatar_problema">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>570</y>
+       <width>321</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 207, 0);
+border-style: outset;
+border-radius: 35px;
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:4px;
+
+font: 75 30pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>RELATAR
+PROBLEMA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_texto">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>1251</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 34pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;O(s) seguinte(s) item(s) de Segurança não foram &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;marcado(s), o que significa que ele(s) apresenta(m) &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;não conformidade:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_itens_desmarcados">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>400</y>
+       <width>621</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 40pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;1,2,3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botao_voltar">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>560</y>
+       <width>321</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 207, 0);
+border-style: outset;
+border-radius: 35px;
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:4px;
+
+font: 75 35pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>VOLTAR</string>
+     </property>
+    </widget>
+    <zorder>label_Atencao</zorder>
+    <zorder>label_texto</zorder>
+    <zorder>label_itens_desmarcados</zorder>
+    <zorder>botao_voltar</zorder>
+    <zorder>botao_relatar_problema</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
