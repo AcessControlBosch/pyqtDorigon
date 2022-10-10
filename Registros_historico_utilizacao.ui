@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cadastros_historico_utilizacao</class>
+ <widget class="QMainWindow" name="cadastros_historico_utilizacao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tabela_utilizacao">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>1231</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 20pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>DATA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>EDV</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="botao_voltar">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>635</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;OI&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+border-width:6px;
+border-radius: 30px;
+
+font: 75 34pt &quot;Bosch Sans Bold&quot;;
+background-color: rgb(255,207,0);</string>
+    </property>
+    <property name="text">
+     <string>VOLTAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_analisar">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>635</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;OI&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+border-width:6px;
+border-radius: 30px;
+
+font: 75 35pt &quot;Bosch Sans Bold&quot;;
+background-color: rgb(0,136,74);</string>
+    </property>
+    <property name="text">
+     <string>ANALISAR</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

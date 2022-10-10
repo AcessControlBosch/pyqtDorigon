@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu02</class>
+ <widget class="QMainWindow" name="Menu02">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1275</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Botao_Manutencao">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>270</y>
+      <width>240</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/MANUTENCAO.png</normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/MANUTENCAO.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>220</width>
+      <height>220</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Botao_Cadastros">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>270</y>
+      <width>240</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/CADASTROS.png</normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/CADASTROS.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>220</width>
+      <height>220</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Botao_Seta_Direita">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>600</y>
+      <width>111</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: inside;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/Seta Branca para direita.png</normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/Seta Branca para direita.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>130</width>
+      <height>130</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Botao_Seta_Esquerda">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>590</y>
+      <width>121</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: inside;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/Seta Preta para esquerda.png</normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/Seta Preta para esquerda.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>135</width>
+      <height>135</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_Menu_De_Usuario">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>60</y>
+      <width>875</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+
+
+
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 65pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MENU DE USUÁRIO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_Colaborador">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>650</y>
+      <width>551</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+
+
+
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 15pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>COLABORADOR:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_EDV">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>700</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+
+
+
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 15pt &quot;Bosch Sans Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>EDV:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Botao_Sair">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>30</y>
+      <width>161</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style: outset;
+background-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+border-width:5px;
+}
+QPushButton:pressed{
+border-style: inside;
+font: 75 9pt &quot;Bosch Sans Bold&quot;;
+background-color: rgb(139, 34, 132);
+color: rgb(255, 207, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/SAIR.png</normaloff>S:/PM/ter/ets/Inter_Setor/COMPARTILHADO/PROJETOS/Mecatrônica_2_Turma/Grupo_4/5_PROGRAMAÇÃO/CODIGO/Jaburu/imagens/SAIR.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

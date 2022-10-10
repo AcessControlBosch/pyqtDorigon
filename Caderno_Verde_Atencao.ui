@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Atencao</class>
+ <widget class="QMainWindow" name="Atencao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1270</width>
+      <height>760</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(155, 228, 179);
+border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:6px;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="Label_Seguranca">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>10</y>
+       <width>451</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 65pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ATENÇÃO</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botao_continuar">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>570</y>
+       <width>321</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 207, 0);
+border-style: outset;
+border-radius: 35px;
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:4px;
+
+font: 75 35pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>CONTINUAR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Label_Seguranca_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>140</y>
+       <width>1181</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 25pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Requisitos de qualidade, segurança e meio ambiente são obrigatórios,
+devendo ser revisados nas seguintes situações:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Label_Seguranca_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>300</y>
+       <width>1201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 25pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Label_Seguranca_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>280</y>
+       <width>661</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 23pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>•  Liberação de máquina / equipamento;
+
+
+•  Após ajuste de máquina / equipamento;
+
+
+•  Trocas de número de tipo;
+
+
+•  Após manutenções (mecânica/elétrica/
+ eletrônica);
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Label_Seguranca_5">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>280</y>
+       <width>531</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+
+
+
+
+border-color: rgb(0, 0, 0);
+border-width:0px;
+
+font: 75 23pt &quot;Bosch Sans Bold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>•  Após correções de Set-up no
+decorrer do processo;
+
+
+•  No início de turnos de trabalho.
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botao_home">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>0</y>
+       <width>120</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+border-width:5px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagens/Home.Liberacao.png</normaloff>imagens/Home.Liberacao.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>105</width>
+       <height>105</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

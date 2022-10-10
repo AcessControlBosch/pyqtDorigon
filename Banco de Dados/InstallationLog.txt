@@ -1,0 +1,1139 @@
+************************************* Invoked: pt. lip 27 00:14:00 2018
+[0] Arguments: c:\temp\sqls-installer\InstallSQLiteStudio-3.2.1.exe, TargetDir=c:/temp/SQLiteStudio
+[4] Operations sanity check succeeded.
+[570] Loaded control script ":/metadata/installer-config/controller_qs.qs"
+[570] Using control script: ":/metadata/installer-config/controller_qs.qs"
+[576] Control script callback "IntroductionPageCallback" does not exist.
+[42464] Warning: :20: TypeError: Cannot call method 'connect' of undefined (:20, )
+[42468] Control script callback "TargetDirectoryPageCallback" does not exist.
+[44687] Control script callback "ComponentSelectionPageCallback" does not exist.
+[45799] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "93.86 GiB"
+[45799] Installation space required: "47.66 MiB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[45799] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[46475] Control script callback "PerformInstallationPageCallback" does not exist.
+[46506] backup  operation: Mkdir
+[46506] 	- arguments: C:/temp/SQLiteStudio
+[46506] Done
+[46506] perform  operation: Mkdir
+[46506] 	- arguments: C:/temp/SQLiteStudio
+[46507] Done
+[46507] Install size: 22 components
+[46521] backup io.qt operation: Extract
+[46521] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\temp\SQLiteStudio
+[46521] Done
+[46521] perform io.qt operation: Extract
+[46521] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\temp\SQLiteStudio
+[47186] Done
+[47187] backup pl.com.salsoft.sqlitestudio operation: Extract
+[47187] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\temp\SQLiteStudio
+[47187] Done
+[47187] perform pl.com.salsoft.sqlitestudio operation: Extract
+[47187] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\temp\SQLiteStudio
+[47392] Done
+[47395] backup pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[47395] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\temp\SQLiteStudio
+[47395] Done
+[47395] perform pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[47395] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\temp\SQLiteStudio
+[47404] Done
+[47405] backup pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[47405] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\temp\SQLiteStudio
+[47405] Done
+[47405] perform pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[47405] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\temp\SQLiteStudio
+[47408] Done
+[47410] backup pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[47410] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\temp\SQLiteStudio
+[47410] Done
+[47410] perform pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[47410] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\temp\SQLiteStudio
+[47413] Done
+[47414] backup pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[47414] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\temp\SQLiteStudio
+[47414] Done
+[47414] perform pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[47414] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\temp\SQLiteStudio
+[47420] Done
+[47421] backup pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[47421] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\temp\SQLiteStudio
+[47421] Done
+[47421] perform pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[47421] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\temp\SQLiteStudio
+[47425] Done
+[47427] backup pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[47427] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\temp\SQLiteStudio
+[47427] Done
+[47427] perform pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[47427] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\temp\SQLiteStudio
+[47430] Done
+[47431] backup pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[47431] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\temp\SQLiteStudio
+[47431] Done
+[47431] perform pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[47431] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\temp\SQLiteStudio
+[47435] Done
+[47436] backup pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[47436] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\temp\SQLiteStudio
+[47436] Done
+[47436] perform pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[47436] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\temp\SQLiteStudio
+[47442] Done
+[47443] backup pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[47443] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\temp\SQLiteStudio
+[47443] Done
+[47443] perform pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[47443] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\temp\SQLiteStudio
+[47446] Done
+[47448] backup pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[47448] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\temp\SQLiteStudio
+[47448] Done
+[47448] perform pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[47448] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\temp\SQLiteStudio
+[47451] Done
+[47452] backup pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[47452] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\temp\SQLiteStudio
+[47452] Done
+[47452] perform pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[47452] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\temp\SQLiteStudio
+[47460] Done
+[47461] backup pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[47461] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\temp\SQLiteStudio
+[47461] Done
+[47461] perform pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[47461] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\temp\SQLiteStudio
+[47465] Done
+[47467] backup pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[47467] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\temp\SQLiteStudio
+[47467] Done
+[47467] perform pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[47467] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\temp\SQLiteStudio
+[47470] Done
+[47471] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[47471] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\temp\SQLiteStudio
+[47471] Done
+[47471] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[47471] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\temp\SQLiteStudio
+[47495] Done
+[47497] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[47497] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\temp\SQLiteStudio
+[47497] Done
+[47497] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[47497] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\temp\SQLiteStudio
+[47512] Done
+[47514] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[47514] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\temp\SQLiteStudio
+[47514] Done
+[47514] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[47514] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\temp\SQLiteStudio
+[47544] Done
+[47545] backup pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[47545] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\temp\SQLiteStudio
+[47545] Done
+[47546] perform pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[47546] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\temp\SQLiteStudio
+[47582] Done
+[47584] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[47584] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\temp\SQLiteStudio
+[47584] Done
+[47584] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[47584] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\temp\SQLiteStudio
+[47617] Done
+[47619] backup pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[47619] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\temp\SQLiteStudio
+[47619] Done
+[47619] perform pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[47619] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\temp\SQLiteStudio
+[47623] Done
+[47629] Writing maintenance tool: "C:\\temp\\SQLiteStudio/UpdateSQLiteStudio.exe.new"
+[47682] Wrote permissions for maintenance tool.
+[47741] Maintenance tool restart: false.
+[47745] Warning: QString::arg: Argument missing: Run SQLiteStudio, SQLiteStudio
+[47745] Control script callback "FinishedPageCallback" does not exist.
+************************************* Invoked: ter nov 10 14:18:18 2020
+[0] Operations sanity check succeeded.
+[9560] addDownloadable "SqlFormatterSimple.7z"
+[9560] addDownloadable "ScriptingTcl.7z"
+[9560] addDownloadable "RegExpImport.7z"
+[9560] addDownloadable "XmlExport.7z"
+[9560] addDownloadable "DbSqliteCipher.7z"
+[9561] addDownloadable "SqlExport.7z"
+[9561] addDownloadable "HtmlExport.7z"
+[9561] addDownloadable "qt.7z"
+[9561] addDownloadable "JsonExport.7z"
+[9561] addDownloadable "Printing.7z"
+[9561] addDownloadable "ConfigMigration.7z"
+[9561] addDownloadable "SqlEnterpriseFormatter.7z"
+[9562] addDownloadable "MultiEditorImage.7z"
+[9562] addDownloadable "sqlitestudio.7z"
+[9562] addDownloadable "DbSqliteWx.7z"
+[9562] addDownloadable "CsvExport.7z"
+[9562] addDownloadable "PdfExport.7z"
+[9562] addDownloadable "DbSqlite2.7z"
+[9562] addDownloadable "DbSqliteSystemData.7z"
+[9562] addDownloadable "DbAndroid.7z"
+[9562] addDownloadable "CsvImport.7z"
+************************************* Invoked: ter nov 10 14:18:35 2020
+[0] Operations sanity check succeeded.
+[7230] addDownloadable "DbAndroid.7z"
+[7230] addDownloadable "PdfExport.7z"
+[7230] addDownloadable "SqlExport.7z"
+[7230] addDownloadable "MultiEditorImage.7z"
+[7230] addDownloadable "ScriptingTcl.7z"
+[7231] addDownloadable "DbSqliteWx.7z"
+[7231] addDownloadable "XmlExport.7z"
+[7231] addDownloadable "JsonExport.7z"
+[7231] addDownloadable "CsvImport.7z"
+[7232] addDownloadable "SqlFormatterSimple.7z"
+[7232] addDownloadable "SqlEnterpriseFormatter.7z"
+[7232] addDownloadable "sqlitestudio.7z"
+[7232] addDownloadable "CsvExport.7z"
+[7232] addDownloadable "RegExpImport.7z"
+[7233] addDownloadable "qt.7z"
+[7233] addDownloadable "DbSqlite2.7z"
+[7233] addDownloadable "Printing.7z"
+[7233] addDownloadable "ConfigMigration.7z"
+[7233] addDownloadable "DbSqliteSystemData.7z"
+[7233] addDownloadable "HtmlExport.7z"
+[7233] addDownloadable "DbSqliteCipher.7z"
+************************************* Invoked: ter jan 12 15:36:44 2021
+[0] Operations sanity check succeeded.
+[6032] addDownloadable "DbSqliteWx.7z"
+[6032] addDownloadable "DbSqliteSystemData.7z"
+[6032] addDownloadable "DbSqliteCipher.7z"
+[6033] addDownloadable "PdfExport.7z"
+[6033] addDownloadable "CsvImport.7z"
+[6033] addDownloadable "ScriptingTcl.7z"
+[6033] addDownloadable "sqlitestudio.7z"
+[6033] addDownloadable "Printing.7z"
+[6033] addDownloadable "XmlExport.7z"
+[6033] addDownloadable "CsvExport.7z"
+[6033] addDownloadable "SqlEnterpriseFormatter.7z"
+[6033] addDownloadable "SqlExport.7z"
+[6033] addDownloadable "ConfigMigration.7z"
+[6033] addDownloadable "DbAndroid.7z"
+[6033] addDownloadable "HtmlExport.7z"
+[6034] addDownloadable "qt.7z"
+[6034] addDownloadable "JsonExport.7z"
+[6034] addDownloadable "MultiEditorImage.7z"
+[6034] addDownloadable "DbSqlite2.7z"
+[6034] addDownloadable "SqlFormatterSimple.7z"
+[6034] addDownloadable "RegExpImport.7z"
+************************************* Invoked: ter jan 26 08:41:43 2021
+[0] Operations sanity check succeeded.
+[6431] addDownloadable "SqlEnterpriseFormatter.7z"
+[6431] addDownloadable "DbSqliteCipher.7z"
+[6432] addDownloadable "DbSqliteSystemData.7z"
+[6432] addDownloadable "JsonExport.7z"
+[6432] addDownloadable "SqlExport.7z"
+[6432] addDownloadable "qt.7z"
+[6432] addDownloadable "SqlFormatterSimple.7z"
+[6432] addDownloadable "sqlitestudio.7z"
+[6432] addDownloadable "XmlExport.7z"
+[6432] addDownloadable "RegExpImport.7z"
+[6432] addDownloadable "DbAndroid.7z"
+[6432] addDownloadable "CsvExport.7z"
+[6432] addDownloadable "ScriptingTcl.7z"
+[6432] addDownloadable "CsvImport.7z"
+[6433] addDownloadable "MultiEditorImage.7z"
+[6433] addDownloadable "DbSqlite2.7z"
+[6433] addDownloadable "PdfExport.7z"
+[6433] addDownloadable "Printing.7z"
+[6433] addDownloadable "HtmlExport.7z"
+[6433] addDownloadable "ConfigMigration.7z"
+[6433] addDownloadable "DbSqliteWx.7z"
+************************************* Invoked: qui jan 28 16:41:40 2021
+[0] Operations sanity check succeeded.
+[5985] addDownloadable "qt.7z"
+[5986] addDownloadable "MultiEditorImage.7z"
+[5986] addDownloadable "HtmlExport.7z"
+[5986] addDownloadable "DbSqliteWx.7z"
+[5986] addDownloadable "sqlitestudio.7z"
+[5986] addDownloadable "DbSqliteCipher.7z"
+[5986] addDownloadable "PdfExport.7z"
+[5986] addDownloadable "ConfigMigration.7z"
+[5987] addDownloadable "DbSqliteSystemData.7z"
+[5987] addDownloadable "DbSqlite2.7z"
+[5987] addDownloadable "SqlFormatterSimple.7z"
+[5987] addDownloadable "DbAndroid.7z"
+[5987] addDownloadable "CsvImport.7z"
+[5987] addDownloadable "CsvExport.7z"
+[5987] addDownloadable "SqlExport.7z"
+[5987] addDownloadable "XmlExport.7z"
+[5988] addDownloadable "JsonExport.7z"
+[5988] addDownloadable "RegExpImport.7z"
+[5988] addDownloadable "Printing.7z"
+[5988] addDownloadable "ScriptingTcl.7z"
+[5988] addDownloadable "SqlEnterpriseFormatter.7z"
+************************************* Invoked: ter ago 10 08:48:30 2021
+[0] Operations sanity check succeeded.
+[7868] addDownloadable "HtmlExport.7z"
+[7868] addDownloadable "MultiEditorImage.7z"
+[7868] addDownloadable "RegExpImport.7z"
+[7868] addDownloadable "ConfigMigration.7z"
+[7868] addDownloadable "DbSqliteCipher.7z"
+[7868] addDownloadable "PdfExport.7z"
+[7868] addDownloadable "qt.7z"
+[7868] addDownloadable "CsvExport.7z"
+[7868] addDownloadable "DbSqlite2.7z"
+[7868] addDownloadable "JsonExport.7z"
+[7868] addDownloadable "XmlExport.7z"
+[7868] addDownloadable "CsvImport.7z"
+[7868] addDownloadable "SqlExport.7z"
+[7868] addDownloadable "sqlitestudio.7z"
+[7868] addDownloadable "SqlFormatterSimple.7z"
+[7868] addDownloadable "ScriptingTcl.7z"
+[7868] addDownloadable "Printing.7z"
+[7868] addDownloadable "DbSqliteSystemData.7z"
+[7869] addDownloadable "SqlEnterpriseFormatter.7z"
+[7869] addDownloadable "DbSqliteWx.7z"
+[7869] addDownloadable "DbAndroid.7z"
+************************************* Invoked: seg jul 18 07:52:16 2022
+[0] Operations sanity check succeeded.
+[6119] addDownloadable "RegExpImport.7z"
+[6119] addDownloadable "sqlitestudio.7z"
+[6119] addDownloadable "ScriptingTcl.7z"
+[6119] addDownloadable "DbSqliteCipher.7z"
+[6119] addDownloadable "DbSqliteWx.7z"
+[6119] addDownloadable "CsvImport.7z"
+[6119] addDownloadable "MultiEditorImage.7z"
+[6120] addDownloadable "HtmlExport.7z"
+[6120] addDownloadable "ConfigMigration.7z"
+[6120] addDownloadable "SqlFormatterSimple.7z"
+[6120] addDownloadable "PdfExport.7z"
+[6120] addDownloadable "XmlExport.7z"
+[6120] addDownloadable "SqlExport.7z"
+[6120] addDownloadable "qt.7z"
+[6120] addDownloadable "DbSqlite2.7z"
+[6120] addDownloadable "DbAndroid.7z"
+[6120] addDownloadable "Printing.7z"
+[6120] addDownloadable "SqlEnterpriseFormatter.7z"
+[6120] addDownloadable "DbSqliteSystemData.7z"
+[6120] addDownloadable "JsonExport.7z"
+[6120] addDownloadable "CsvExport.7z"
+************************************* Invoked: ter jul 19 14:17:52 2022
+[0] Operations sanity check succeeded.
+[6581] addDownloadable "qt.7z"
+[6581] addDownloadable "CsvImport.7z"
+[6581] addDownloadable "sqlitestudio.7z"
+[6581] addDownloadable "SqlExport.7z"
+[6581] addDownloadable "SqlFormatterSimple.7z"
+[6581] addDownloadable "XmlExport.7z"
+[6581] addDownloadable "DbSqliteSystemData.7z"
+[6581] addDownloadable "DbSqliteCipher.7z"
+[6581] addDownloadable "DbSqliteWx.7z"
+[6581] addDownloadable "SqlEnterpriseFormatter.7z"
+[6581] addDownloadable "CsvExport.7z"
+[6581] addDownloadable "JsonExport.7z"
+[6581] addDownloadable "MultiEditorImage.7z"
+[6581] addDownloadable "ConfigMigration.7z"
+[6581] addDownloadable "Printing.7z"
+[6581] addDownloadable "PdfExport.7z"
+[6582] addDownloadable "HtmlExport.7z"
+[6582] addDownloadable "RegExpImport.7z"
+[6582] addDownloadable "DbAndroid.7z"
+[6582] addDownloadable "DbSqlite2.7z"
+[6582] addDownloadable "ScriptingTcl.7z"
+************************************* Invoked: ter jul 26 07:40:08 2022
+[0] Operations sanity check succeeded.
+[602] Network error while downloading 'http://sqlitestudio.pl/update-repo/windows//Updates.xml?94078032': Error transferring http://sqlitestudio.pl/update-repo/windows//Updates.xml?94078032 - server replied: Forbidden.
+[609] Cannot fetch a valid version of Updates.xml from repository "": "unexpected character"
+[609] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: ter ago 2 10:39:46 2022
+[0] Operations sanity check succeeded.
+[7475] addDownloadable "Printing.7z"
+[7475] addDownloadable "DbSqliteSystemData.7z"
+[7475] addDownloadable "RegExpImport.7z"
+[7475] addDownloadable "ConfigMigration.7z"
+[7475] addDownloadable "HtmlExport.7z"
+[7475] addDownloadable "CsvImport.7z"
+[7475] addDownloadable "SqlEnterpriseFormatter.7z"
+[7475] addDownloadable "SqlFormatterSimple.7z"
+[7475] addDownloadable "MultiEditorImage.7z"
+[7475] addDownloadable "DbSqliteCipher.7z"
+[7475] addDownloadable "PdfExport.7z"
+[7475] addDownloadable "DbSqliteWx.7z"
+[7475] addDownloadable "qt.7z"
+[7475] addDownloadable "SqlExport.7z"
+[7475] addDownloadable "ScriptingTcl.7z"
+[7475] addDownloadable "DbSqlite2.7z"
+[7475] addDownloadable "DbAndroid.7z"
+[7476] addDownloadable "JsonExport.7z"
+[7476] addDownloadable "CsvExport.7z"
+[7476] addDownloadable "XmlExport.7z"
+[7476] addDownloadable "sqlitestudio.7z"
+************************************* Invoked: ter ago 2 16:16:02 2022
+[0] Operations sanity check succeeded.
+[16537] addDownloadable "Printing.7z"
+[16537] addDownloadable "XmlExport.7z"
+[16537] addDownloadable "MultiEditorImage.7z"
+[16537] addDownloadable "CsvImport.7z"
+[16537] addDownloadable "SqlFormatterSimple.7z"
+[16537] addDownloadable "CsvExport.7z"
+[16537] addDownloadable "DbAndroid.7z"
+[16537] addDownloadable "ConfigMigration.7z"
+[16537] addDownloadable "DbSqliteCipher.7z"
+[16537] addDownloadable "DbSqlite2.7z"
+[16537] addDownloadable "HtmlExport.7z"
+[16537] addDownloadable "JsonExport.7z"
+[16537] addDownloadable "PdfExport.7z"
+[16537] addDownloadable "SqlExport.7z"
+[16538] addDownloadable "SqlEnterpriseFormatter.7z"
+[16538] addDownloadable "RegExpImport.7z"
+[16538] addDownloadable "DbSqliteWx.7z"
+[16538] addDownloadable "DbSqliteSystemData.7z"
+[16538] addDownloadable "ScriptingTcl.7z"
+[16538] addDownloadable "sqlitestudio.7z"
+[17131] addDownloadable "qt.7z"
+************************************* Invoked: ter ago 2 16:20:59 2022
+[0] Operations sanity check succeeded.
+[12629] addDownloadable "DbSqliteCipher.7z"
+[12629] addDownloadable "HtmlExport.7z"
+[12629] addDownloadable "CsvExport.7z"
+[12629] addDownloadable "SqlExport.7z"
+[12629] addDownloadable "XmlExport.7z"
+[12629] addDownloadable "sqlitestudio.7z"
+[12629] addDownloadable "ConfigMigration.7z"
+[12629] addDownloadable "DbSqliteWx.7z"
+[12630] addDownloadable "MultiEditorImage.7z"
+[13645] addDownloadable "qt.7z"
+[13645] addDownloadable "PdfExport.7z"
+[13645] addDownloadable "DbSqlite2.7z"
+[13645] addDownloadable "SqlFormatterSimple.7z"
+[13645] addDownloadable "JsonExport.7z"
+[13645] addDownloadable "RegExpImport.7z"
+[13645] addDownloadable "DbAndroid.7z"
+[13645] addDownloadable "CsvImport.7z"
+[13645] addDownloadable "ScriptingTcl.7z"
+[13645] addDownloadable "Printing.7z"
+[13645] addDownloadable "DbSqliteSystemData.7z"
+[13645] addDownloadable "SqlEnterpriseFormatter.7z"
+************************************* Invoked: ter ago 2 16:26:42 2022
+[0] Warning: Cannot create lock file "C:\Users\CT67CA\AppData\Local\Temp\UpdateSQLiteStudio15021976.lock": O arquivo já está sendo usado por outro processo.
+ (0x00000020)
+[15722] Operations sanity check succeeded.
+[42009] addDownloadable "MultiEditorImage.7z"
+[42040] addDownloadable "JsonExport.7z"
+[42040] addDownloadable "PdfExport.7z"
+[42040] addDownloadable "CsvImport.7z"
+[42040] addDownloadable "ConfigMigration.7z"
+[42040] addDownloadable "Printing.7z"
+[42041] addDownloadable "HtmlExport.7z"
+[42041] addDownloadable "DbAndroid.7z"
+[42041] addDownloadable "ScriptingTcl.7z"
+[42041] addDownloadable "SqlFormatterSimple.7z"
+[42041] addDownloadable "DbSqlite2.7z"
+[42041] addDownloadable "DbSqliteSystemData.7z"
+[42041] addDownloadable "sqlitestudio.7z"
+[42041] addDownloadable "DbSqliteWx.7z"
+[42041] addDownloadable "SqlEnterpriseFormatter.7z"
+[42102] addDownloadable "qt.7z"
+[42102] addDownloadable "DbSqliteCipher.7z"
+[42102] addDownloadable "CsvExport.7z"
+[42102] addDownloadable "RegExpImport.7z"
+[42102] addDownloadable "XmlExport.7z"
+[42102] addDownloadable "SqlExport.7z"
+************************************* Invoked: ter ago 2 16:28:35 2022
+[0] Operations sanity check succeeded.
+[6312] addDownloadable "ConfigMigration.7z"
+[6339] addDownloadable "PdfExport.7z"
+[6339] addDownloadable "CsvImport.7z"
+[6339] addDownloadable "SqlExport.7z"
+[6339] addDownloadable "RegExpImport.7z"
+[6339] addDownloadable "DbSqliteWx.7z"
+[6339] addDownloadable "JsonExport.7z"
+[6339] addDownloadable "SqlFormatterSimple.7z"
+[6339] addDownloadable "SqlEnterpriseFormatter.7z"
+[6339] addDownloadable "XmlExport.7z"
+[6339] addDownloadable "HtmlExport.7z"
+[6340] addDownloadable "ScriptingTcl.7z"
+[6340] addDownloadable "DbAndroid.7z"
+[6379] addDownloadable "qt.7z"
+[6379] addDownloadable "DbSqlite2.7z"
+[6379] addDownloadable "sqlitestudio.7z"
+[6379] addDownloadable "Printing.7z"
+[6379] addDownloadable "MultiEditorImage.7z"
+[6379] addDownloadable "CsvExport.7z"
+[6379] addDownloadable "DbSqliteCipher.7z"
+[6379] addDownloadable "DbSqliteSystemData.7z"
+************************************* Invoked: seg ago 8 08:52:54 2022
+[0] Operations sanity check succeeded.
+[16082] addDownloadable "SqlExport.7z"
+[16082] addDownloadable "sqlitestudio.7z"
+[16082] addDownloadable "PdfExport.7z"
+[16082] addDownloadable "ConfigMigration.7z"
+[16082] addDownloadable "DbSqliteCipher.7z"
+[16082] addDownloadable "DbSqliteSystemData.7z"
+[16082] addDownloadable "ScriptingTcl.7z"
+[16082] addDownloadable "CsvExport.7z"
+[16082] addDownloadable "DbSqliteWx.7z"
+[16082] addDownloadable "DbAndroid.7z"
+[16082] addDownloadable "MultiEditorImage.7z"
+[16082] addDownloadable "DbSqlite2.7z"
+[16082] addDownloadable "JsonExport.7z"
+[16082] addDownloadable "XmlExport.7z"
+[16082] addDownloadable "HtmlExport.7z"
+[16082] addDownloadable "CsvImport.7z"
+[16082] addDownloadable "SqlFormatterSimple.7z"
+[17007] addDownloadable "qt.7z"
+[17007] addDownloadable "SqlEnterpriseFormatter.7z"
+[17007] addDownloadable "RegExpImport.7z"
+[17007] addDownloadable "Printing.7z"
+************************************* Invoked: seg ago 8 09:51:13 2022
+[0] Operations sanity check succeeded.
+[12547] addDownloadable "Printing.7z"
+[13505] addDownloadable "qt.7z"
+[13505] addDownloadable "HtmlExport.7z"
+[13505] addDownloadable "JsonExport.7z"
+[13505] addDownloadable "PdfExport.7z"
+[13505] addDownloadable "ScriptingTcl.7z"
+[13505] addDownloadable "SqlExport.7z"
+[13505] addDownloadable "XmlExport.7z"
+[13505] addDownloadable "sqlitestudio.7z"
+[13506] addDownloadable "DbSqlite2.7z"
+[13506] addDownloadable "ConfigMigration.7z"
+[13506] addDownloadable "DbSqliteCipher.7z"
+[13506] addDownloadable "MultiEditorImage.7z"
+[13506] addDownloadable "SqlEnterpriseFormatter.7z"
+[13506] addDownloadable "RegExpImport.7z"
+[13506] addDownloadable "SqlFormatterSimple.7z"
+[13506] addDownloadable "DbSqliteWx.7z"
+[13506] addDownloadable "CsvExport.7z"
+[13506] addDownloadable "CsvImport.7z"
+[13506] addDownloadable "DbSqliteSystemData.7z"
+[13506] addDownloadable "DbAndroid.7z"
+************************************* Invoked: ter ago 9 07:53:40 2022
+[0] Operations sanity check succeeded.
+[7377] addDownloadable "CsvExport.7z"
+[7377] addDownloadable "SqlEnterpriseFormatter.7z"
+[7377] addDownloadable "MultiEditorImage.7z"
+[7377] addDownloadable "sqlitestudio.7z"
+[7377] addDownloadable "DbSqliteSystemData.7z"
+[7377] addDownloadable "Printing.7z"
+[7377] addDownloadable "SqlFormatterSimple.7z"
+[7377] addDownloadable "XmlExport.7z"
+[7377] addDownloadable "HtmlExport.7z"
+[7377] addDownloadable "RegExpImport.7z"
+[7377] addDownloadable "CsvImport.7z"
+[7377] addDownloadable "DbSqliteCipher.7z"
+[7377] addDownloadable "DbSqliteWx.7z"
+[7377] addDownloadable "DbAndroid.7z"
+[7377] addDownloadable "PdfExport.7z"
+[7377] addDownloadable "SqlExport.7z"
+[7377] addDownloadable "JsonExport.7z"
+[7378] addDownloadable "qt.7z"
+[7378] addDownloadable "ScriptingTcl.7z"
+[7378] addDownloadable "ConfigMigration.7z"
+[7378] addDownloadable "DbSqlite2.7z"
+************************************* Invoked: qui ago 11 07:59:40 2022
+[0] Warning: Cannot create lock file "C:\Users\CT67CA\AppData\Local\Temp\UpdateSQLiteStudio15021976.lock": O arquivo já está sendo usado por outro processo.
+ (0x00000020)
+[1906] Operations sanity check succeeded.
+[9780] addDownloadable "CsvImport.7z"
+[9780] addDownloadable "DbSqliteSystemData.7z"
+[9780] addDownloadable "SqlFormatterSimple.7z"
+[9780] addDownloadable "CsvExport.7z"
+[9780] addDownloadable "SqlEnterpriseFormatter.7z"
+[9840] addDownloadable "qt.7z"
+[9840] addDownloadable "DbSqliteWx.7z"
+[9840] addDownloadable "MultiEditorImage.7z"
+[9840] addDownloadable "DbAndroid.7z"
+[9840] addDownloadable "DbSqlite2.7z"
+[9840] addDownloadable "sqlitestudio.7z"
+[9840] addDownloadable "RegExpImport.7z"
+[9840] addDownloadable "SqlExport.7z"
+[9840] addDownloadable "DbSqliteCipher.7z"
+[9840] addDownloadable "HtmlExport.7z"
+[9840] addDownloadable "JsonExport.7z"
+[9840] addDownloadable "ConfigMigration.7z"
+[9840] addDownloadable "ScriptingTcl.7z"
+[9840] addDownloadable "Printing.7z"
+[9841] addDownloadable "PdfExport.7z"
+[9841] addDownloadable "XmlExport.7z"
+************************************* Invoked: qui ago 11 07:59:42 2022
+[0] Operations sanity check succeeded.
+[7855] addDownloadable "HtmlExport.7z"
+[7873] addDownloadable "DbSqliteSystemData.7z"
+[7873] addDownloadable "DbSqlite2.7z"
+[7873] addDownloadable "SqlFormatterSimple.7z"
+[7873] addDownloadable "ScriptingTcl.7z"
+[7873] addDownloadable "SqlExport.7z"
+[7874] addDownloadable "DbAndroid.7z"
+[7874] addDownloadable "SqlEnterpriseFormatter.7z"
+[7874] addDownloadable "CsvExport.7z"
+[7874] addDownloadable "CsvImport.7z"
+[7874] addDownloadable "DbSqliteCipher.7z"
+[7874] addDownloadable "XmlExport.7z"
+[7874] addDownloadable "PdfExport.7z"
+[7874] addDownloadable "sqlitestudio.7z"
+[7874] addDownloadable "RegExpImport.7z"
+[7874] addDownloadable "DbSqliteWx.7z"
+[7874] addDownloadable "ConfigMigration.7z"
+[7874] addDownloadable "Printing.7z"
+[7874] addDownloadable "JsonExport.7z"
+[7874] addDownloadable "MultiEditorImage.7z"
+[7933] addDownloadable "qt.7z"
+************************************* Invoked: sex ago 12 09:38:00 2022
+[0] Operations sanity check succeeded.
+[16663] addDownloadable "HtmlExport.7z"
+[16663] addDownloadable "DbSqliteWx.7z"
+[16663] addDownloadable "DbSqliteSystemData.7z"
+[16663] addDownloadable "DbSqliteCipher.7z"
+[16663] addDownloadable "DbSqlite2.7z"
+[16663] addDownloadable "CsvExport.7z"
+[16663] addDownloadable "CsvImport.7z"
+[16663] addDownloadable "XmlExport.7z"
+[19071] addDownloadable "qt.7z"
+[19071] addDownloadable "ConfigMigration.7z"
+[19071] addDownloadable "SqlEnterpriseFormatter.7z"
+[19071] addDownloadable "RegExpImport.7z"
+[19071] addDownloadable "MultiEditorImage.7z"
+[19071] addDownloadable "Printing.7z"
+[19071] addDownloadable "JsonExport.7z"
+[19071] addDownloadable "SqlFormatterSimple.7z"
+[19071] addDownloadable "DbAndroid.7z"
+[19071] addDownloadable "ScriptingTcl.7z"
+[19071] addDownloadable "sqlitestudio.7z"
+[19071] addDownloadable "SqlExport.7z"
+[19071] addDownloadable "PdfExport.7z"
+************************************* Invoked: qui ago 18 07:39:13 2022
+[0] Operations sanity check succeeded.
+[6016] addDownloadable "DbAndroid.7z"
+[6016] addDownloadable "ConfigMigration.7z"
+[6017] addDownloadable "MultiEditorImage.7z"
+[6017] addDownloadable "DbSqliteSystemData.7z"
+[6017] addDownloadable "DbSqliteWx.7z"
+[6017] addDownloadable "DbSqlite2.7z"
+[6017] addDownloadable "qt.7z"
+[6017] addDownloadable "ScriptingTcl.7z"
+[6017] addDownloadable "RegExpImport.7z"
+[6017] addDownloadable "CsvImport.7z"
+[6017] addDownloadable "sqlitestudio.7z"
+[6017] addDownloadable "Printing.7z"
+[6017] addDownloadable "CsvExport.7z"
+[6017] addDownloadable "SqlExport.7z"
+[6017] addDownloadable "PdfExport.7z"
+[6017] addDownloadable "JsonExport.7z"
+[6017] addDownloadable "HtmlExport.7z"
+[6017] addDownloadable "SqlFormatterSimple.7z"
+[6017] addDownloadable "SqlEnterpriseFormatter.7z"
+[6017] addDownloadable "XmlExport.7z"
+[6017] addDownloadable "DbSqliteCipher.7z"
+************************************* Invoked: qui ago 18 07:41:31 2022
+[0] Operations sanity check succeeded.
+[4693] addDownloadable "CsvImport.7z"
+[4695] addDownloadable "sqlitestudio.7z"
+[4695] addDownloadable "DbSqlite2.7z"
+[4695] addDownloadable "DbSqliteSystemData.7z"
+[4695] addDownloadable "JsonExport.7z"
+[4695] addDownloadable "PdfExport.7z"
+[4695] addDownloadable "SqlEnterpriseFormatter.7z"
+[4696] addDownloadable "MultiEditorImage.7z"
+[4696] addDownloadable "RegExpImport.7z"
+[4696] addDownloadable "HtmlExport.7z"
+[4696] addDownloadable "DbSqliteWx.7z"
+[4696] addDownloadable "DbSqliteCipher.7z"
+[4696] addDownloadable "ScriptingTcl.7z"
+[4696] addDownloadable "SqlExport.7z"
+[4696] addDownloadable "SqlFormatterSimple.7z"
+[4696] addDownloadable "DbAndroid.7z"
+[4696] addDownloadable "XmlExport.7z"
+[4700] addDownloadable "qt.7z"
+[4700] addDownloadable "ConfigMigration.7z"
+[4700] addDownloadable "CsvExport.7z"
+[4700] addDownloadable "Printing.7z"
+************************************* Invoked: qui ago 18 07:42:22 2022
+[0] Operations sanity check succeeded.
+[5467] addDownloadable "DbSqliteWx.7z"
+[5469] addDownloadable "DbSqliteCipher.7z"
+[5469] addDownloadable "CsvExport.7z"
+[5469] addDownloadable "DbAndroid.7z"
+[5469] addDownloadable "JsonExport.7z"
+[5469] addDownloadable "CsvImport.7z"
+[5469] addDownloadable "sqlitestudio.7z"
+[5469] addDownloadable "ConfigMigration.7z"
+[5469] addDownloadable "PdfExport.7z"
+[5469] addDownloadable "SqlExport.7z"
+[5469] addDownloadable "HtmlExport.7z"
+[5469] addDownloadable "XmlExport.7z"
+[5469] addDownloadable "SqlFormatterSimple.7z"
+[5469] addDownloadable "Printing.7z"
+[5469] addDownloadable "SqlEnterpriseFormatter.7z"
+[5469] addDownloadable "RegExpImport.7z"
+[5469] addDownloadable "DbSqlite2.7z"
+[5469] addDownloadable "MultiEditorImage.7z"
+[5470] addDownloadable "ScriptingTcl.7z"
+[5472] addDownloadable "qt.7z"
+[5473] addDownloadable "DbSqliteSystemData.7z"
+************************************* Invoked: qui ago 25 08:30:00 2022
+[0] Operations sanity check succeeded.
+[7615] addDownloadable "CsvImport.7z"
+[7616] addDownloadable "DbSqliteWx.7z"
+[7616] addDownloadable "SqlFormatterSimple.7z"
+[7616] addDownloadable "DbSqliteCipher.7z"
+[7616] addDownloadable "RegExpImport.7z"
+[7616] addDownloadable "qt.7z"
+[7616] addDownloadable "PdfExport.7z"
+[7616] addDownloadable "SqlExport.7z"
+[7616] addDownloadable "MultiEditorImage.7z"
+[7616] addDownloadable "HtmlExport.7z"
+[7616] addDownloadable "JsonExport.7z"
+[7616] addDownloadable "Printing.7z"
+[7616] addDownloadable "sqlitestudio.7z"
+[7616] addDownloadable "DbAndroid.7z"
+[7616] addDownloadable "DbSqliteSystemData.7z"
+[7616] addDownloadable "DbSqlite2.7z"
+[7616] addDownloadable "CsvExport.7z"
+[7616] addDownloadable "SqlEnterpriseFormatter.7z"
+[7616] addDownloadable "ConfigMigration.7z"
+[7617] addDownloadable "ScriptingTcl.7z"
+[7617] addDownloadable "XmlExport.7z"
+************************************* Invoked: sáb set 3 18:43:11 2022
+[0] Operations sanity check succeeded.
+[4297] addDownloadable "Printing.7z"
+[4297] addDownloadable "CsvExport.7z"
+[4297] addDownloadable "DbAndroid.7z"
+[4297] addDownloadable "MultiEditorImage.7z"
+[4297] addDownloadable "DbSqliteCipher.7z"
+[4297] addDownloadable "ConfigMigration.7z"
+[4297] addDownloadable "PdfExport.7z"
+[4298] addDownloadable "qt.7z"
+[4298] addDownloadable "SqlExport.7z"
+[4298] addDownloadable "HtmlExport.7z"
+[4298] addDownloadable "ScriptingTcl.7z"
+[4298] addDownloadable "CsvImport.7z"
+[4298] addDownloadable "JsonExport.7z"
+[4298] addDownloadable "DbSqliteWx.7z"
+[4298] addDownloadable "SqlEnterpriseFormatter.7z"
+[4298] addDownloadable "SqlFormatterSimple.7z"
+[4298] addDownloadable "XmlExport.7z"
+[4298] addDownloadable "sqlitestudio.7z"
+[4298] addDownloadable "DbSqliteSystemData.7z"
+[4298] addDownloadable "RegExpImport.7z"
+[4298] addDownloadable "DbSqlite2.7z"
+************************************* Invoked: sáb set 3 18:44:38 2022
+[0] Operations sanity check succeeded.
+[3993] addDownloadable "XmlExport.7z"
+[3993] addDownloadable "SqlFormatterSimple.7z"
+[3993] addDownloadable "DbSqliteSystemData.7z"
+[3993] addDownloadable "ScriptingTcl.7z"
+[3993] addDownloadable "DbAndroid.7z"
+[3993] addDownloadable "HtmlExport.7z"
+[3993] addDownloadable "JsonExport.7z"
+[3993] addDownloadable "PdfExport.7z"
+[3993] addDownloadable "DbSqliteCipher.7z"
+[3993] addDownloadable "Printing.7z"
+[3993] addDownloadable "DbSqlite2.7z"
+[3993] addDownloadable "sqlitestudio.7z"
+[3994] addDownloadable "RegExpImport.7z"
+[3994] addDownloadable "ConfigMigration.7z"
+[3994] addDownloadable "CsvExport.7z"
+[3994] addDownloadable "qt.7z"
+[3994] addDownloadable "MultiEditorImage.7z"
+[3994] addDownloadable "SqlEnterpriseFormatter.7z"
+[3994] addDownloadable "DbSqliteWx.7z"
+[3994] addDownloadable "SqlExport.7z"
+[3994] addDownloadable "CsvImport.7z"
+************************************* Invoked: dom set 4 13:07:51 2022
+[0] Operations sanity check succeeded.
+[4971] Warning: QIODevice::write (QTcpSocket): device not open
+[7427] addDownloadable "sqlitestudio.7z"
+[7427] addDownloadable "ConfigMigration.7z"
+[7427] addDownloadable "CsvExport.7z"
+[7427] addDownloadable "Printing.7z"
+[7428] addDownloadable "XmlExport.7z"
+[7428] addDownloadable "DbSqliteSystemData.7z"
+[7428] addDownloadable "DbSqliteWx.7z"
+[7428] addDownloadable "RegExpImport.7z"
+[7428] addDownloadable "SqlEnterpriseFormatter.7z"
+[7428] addDownloadable "PdfExport.7z"
+[7428] addDownloadable "DbAndroid.7z"
+[7428] addDownloadable "JsonExport.7z"
+[7428] addDownloadable "HtmlExport.7z"
+[7428] addDownloadable "ScriptingTcl.7z"
+[7428] addDownloadable "DbSqlite2.7z"
+[7428] addDownloadable "MultiEditorImage.7z"
+[7428] addDownloadable "SqlFormatterSimple.7z"
+[7428] addDownloadable "qt.7z"
+[7428] addDownloadable "DbSqliteCipher.7z"
+[7428] addDownloadable "CsvImport.7z"
+[7429] addDownloadable "SqlExport.7z"
+************************************* Invoked: dom set 4 14:03:34 2022
+[0] Operations sanity check succeeded.
+[4018] addDownloadable "DbSqlite2.7z"
+[4018] addDownloadable "SqlEnterpriseFormatter.7z"
+[4018] addDownloadable "qt.7z"
+[4018] addDownloadable "XmlExport.7z"
+[4018] addDownloadable "HtmlExport.7z"
+[4018] addDownloadable "DbAndroid.7z"
+[4018] addDownloadable "SqlExport.7z"
+[4018] addDownloadable "DbSqliteWx.7z"
+[4018] addDownloadable "RegExpImport.7z"
+[4018] addDownloadable "ConfigMigration.7z"
+[4019] addDownloadable "DbSqliteCipher.7z"
+[4019] addDownloadable "sqlitestudio.7z"
+[4019] addDownloadable "JsonExport.7z"
+[4019] addDownloadable "ScriptingTcl.7z"
+[4019] addDownloadable "PdfExport.7z"
+[4019] addDownloadable "SqlFormatterSimple.7z"
+[4019] addDownloadable "DbSqliteSystemData.7z"
+[4019] addDownloadable "CsvExport.7z"
+[4019] addDownloadable "MultiEditorImage.7z"
+[4019] addDownloadable "CsvImport.7z"
+[4019] addDownloadable "Printing.7z"
+************************************* Invoked: dom set 4 14:04:10 2022
+[0] Operations sanity check succeeded.
+[4141] addDownloadable "CsvExport.7z"
+[4141] addDownloadable "qt.7z"
+[4141] addDownloadable "DbAndroid.7z"
+[4141] addDownloadable "CsvImport.7z"
+[4141] addDownloadable "JsonExport.7z"
+[4141] addDownloadable "DbSqlite2.7z"
+[4141] addDownloadable "MultiEditorImage.7z"
+[4141] addDownloadable "DbSqliteSystemData.7z"
+[4141] addDownloadable "DbSqliteWx.7z"
+[4141] addDownloadable "XmlExport.7z"
+[4141] addDownloadable "ConfigMigration.7z"
+[4141] addDownloadable "PdfExport.7z"
+[4141] addDownloadable "DbSqliteCipher.7z"
+[4141] addDownloadable "sqlitestudio.7z"
+[4142] addDownloadable "HtmlExport.7z"
+[4142] addDownloadable "Printing.7z"
+[4142] addDownloadable "ScriptingTcl.7z"
+[4142] addDownloadable "SqlExport.7z"
+[4142] addDownloadable "RegExpImport.7z"
+[4142] addDownloadable "SqlEnterpriseFormatter.7z"
+[4142] addDownloadable "SqlFormatterSimple.7z"
+************************************* Invoked: dom set 4 16:58:25 2022
+[0] Operations sanity check succeeded.
+[3329] Warning: QIODevice::write (QTcpSocket): device not open
+[5258] addDownloadable "PdfExport.7z"
+[5258] addDownloadable "RegExpImport.7z"
+[5258] addDownloadable "Printing.7z"
+[5258] addDownloadable "JsonExport.7z"
+[5258] addDownloadable "DbSqliteCipher.7z"
+[5258] addDownloadable "DbAndroid.7z"
+[5258] addDownloadable "qt.7z"
+[5258] addDownloadable "ConfigMigration.7z"
+[5258] addDownloadable "CsvImport.7z"
+[5259] addDownloadable "DbSqliteSystemData.7z"
+[5259] addDownloadable "XmlExport.7z"
+[5259] addDownloadable "HtmlExport.7z"
+[5259] addDownloadable "DbSqlite2.7z"
+[5259] addDownloadable "SqlFormatterSimple.7z"
+[5259] addDownloadable "ScriptingTcl.7z"
+[5259] addDownloadable "SqlExport.7z"
+[5259] addDownloadable "CsvExport.7z"
+[5259] addDownloadable "SqlEnterpriseFormatter.7z"
+[5259] addDownloadable "MultiEditorImage.7z"
+[5259] addDownloadable "DbSqliteWx.7z"
+[5259] addDownloadable "sqlitestudio.7z"
+************************************* Invoked: dom set 4 17:16:59 2022
+[0] Operations sanity check succeeded.
+[2286] Warning: QIODevice::write (QTcpSocket): device not open
+[6723] addDownloadable "CsvExport.7z"
+[6723] addDownloadable "SqlEnterpriseFormatter.7z"
+[6723] addDownloadable "RegExpImport.7z"
+[6723] addDownloadable "sqlitestudio.7z"
+[6723] addDownloadable "DbSqliteSystemData.7z"
+[6724] addDownloadable "HtmlExport.7z"
+[6724] addDownloadable "ConfigMigration.7z"
+[6724] addDownloadable "MultiEditorImage.7z"
+[6724] addDownloadable "Printing.7z"
+[6724] addDownloadable "SqlFormatterSimple.7z"
+[6724] addDownloadable "CsvImport.7z"
+[6724] addDownloadable "DbSqliteWx.7z"
+[6724] addDownloadable "JsonExport.7z"
+[6724] addDownloadable "ScriptingTcl.7z"
+[6724] addDownloadable "PdfExport.7z"
+[6724] addDownloadable "DbSqlite2.7z"
+[6724] addDownloadable "XmlExport.7z"
+[6724] addDownloadable "DbSqliteCipher.7z"
+[6724] addDownloadable "qt.7z"
+[6724] addDownloadable "DbAndroid.7z"
+[6724] addDownloadable "SqlExport.7z"
+************************************* Invoked: seg set 5 21:36:25 2022
+[0] Operations sanity check succeeded.
+[6261] addDownloadable "DbAndroid.7z"
+[6261] addDownloadable "Printing.7z"
+[6261] addDownloadable "CsvExport.7z"
+[6261] addDownloadable "DbSqliteSystemData.7z"
+[6261] addDownloadable "DbSqlite2.7z"
+[6261] addDownloadable "SqlEnterpriseFormatter.7z"
+[6261] addDownloadable "DbSqliteWx.7z"
+[6261] addDownloadable "SqlExport.7z"
+[6261] addDownloadable "ConfigMigration.7z"
+[6261] addDownloadable "DbSqliteCipher.7z"
+[6261] addDownloadable "XmlExport.7z"
+[6261] addDownloadable "MultiEditorImage.7z"
+[6261] addDownloadable "qt.7z"
+[6261] addDownloadable "ScriptingTcl.7z"
+[6261] addDownloadable "CsvImport.7z"
+[6262] addDownloadable "PdfExport.7z"
+[6262] addDownloadable "HtmlExport.7z"
+[6262] addDownloadable "sqlitestudio.7z"
+[6262] addDownloadable "SqlFormatterSimple.7z"
+[6262] addDownloadable "RegExpImport.7z"
+[6262] addDownloadable "JsonExport.7z"
+************************************* Invoked: ter set 6 09:59:07 2022
+[0] Operations sanity check succeeded.
+[10143] addDownloadable "DbSqliteCipher.7z"
+[10144] addDownloadable "MultiEditorImage.7z"
+[10144] addDownloadable "DbSqlite2.7z"
+[10144] addDownloadable "ScriptingTcl.7z"
+[10144] addDownloadable "Printing.7z"
+[10144] addDownloadable "DbAndroid.7z"
+[10144] addDownloadable "PdfExport.7z"
+[10144] addDownloadable "sqlitestudio.7z"
+[10144] addDownloadable "SqlEnterpriseFormatter.7z"
+[10144] addDownloadable "CsvImport.7z"
+[10144] addDownloadable "RegExpImport.7z"
+[10144] addDownloadable "DbSqliteSystemData.7z"
+[10144] addDownloadable "ConfigMigration.7z"
+[10144] addDownloadable "DbSqliteWx.7z"
+[10144] addDownloadable "HtmlExport.7z"
+[10144] addDownloadable "SqlExport.7z"
+[10144] addDownloadable "SqlFormatterSimple.7z"
+[10144] addDownloadable "XmlExport.7z"
+[10144] addDownloadable "JsonExport.7z"
+[11604] addDownloadable "qt.7z"
+[11604] addDownloadable "CsvExport.7z"
+************************************* Invoked: ter set 6 10:03:39 2022
+[0] Operations sanity check succeeded.
+[4665] addDownloadable "DbAndroid.7z"
+[4665] addDownloadable "CsvImport.7z"
+[4665] addDownloadable "SqlExport.7z"
+[4665] addDownloadable "CsvExport.7z"
+[4665] addDownloadable "MultiEditorImage.7z"
+[4665] addDownloadable "DbSqlite2.7z"
+[4665] addDownloadable "DbSqliteSystemData.7z"
+[4665] addDownloadable "PdfExport.7z"
+[4665] addDownloadable "HtmlExport.7z"
+[4665] addDownloadable "Printing.7z"
+[4665] addDownloadable "JsonExport.7z"
+[4665] addDownloadable "ConfigMigration.7z"
+[4665] addDownloadable "XmlExport.7z"
+[4665] addDownloadable "DbSqliteWx.7z"
+[4666] addDownloadable "SqlEnterpriseFormatter.7z"
+[4666] addDownloadable "qt.7z"
+[4666] addDownloadable "DbSqliteCipher.7z"
+[4666] addDownloadable "SqlFormatterSimple.7z"
+[4666] addDownloadable "sqlitestudio.7z"
+[4666] addDownloadable "RegExpImport.7z"
+[4666] addDownloadable "ScriptingTcl.7z"
+************************************* Invoked: qui set 8 09:44:22 2022
+[0] Operations sanity check succeeded.
+[5540] addDownloadable "XmlExport.7z"
+[5540] addDownloadable "sqlitestudio.7z"
+[5540] addDownloadable "CsvImport.7z"
+[5540] addDownloadable "Printing.7z"
+[5540] addDownloadable "JsonExport.7z"
+[5540] addDownloadable "qt.7z"
+[5540] addDownloadable "DbAndroid.7z"
+[5540] addDownloadable "DbSqliteWx.7z"
+[5540] addDownloadable "PdfExport.7z"
+[5540] addDownloadable "SqlExport.7z"
+[5540] addDownloadable "MultiEditorImage.7z"
+[5540] addDownloadable "DbSqlite2.7z"
+[5540] addDownloadable "DbSqliteSystemData.7z"
+[5540] addDownloadable "DbSqliteCipher.7z"
+[5540] addDownloadable "ScriptingTcl.7z"
+[5540] addDownloadable "RegExpImport.7z"
+[5540] addDownloadable "SqlEnterpriseFormatter.7z"
+[5540] addDownloadable "ConfigMigration.7z"
+[5541] addDownloadable "CsvExport.7z"
+[5541] addDownloadable "SqlFormatterSimple.7z"
+[5541] addDownloadable "HtmlExport.7z"
+************************************* Invoked: ter set 13 09:10:34 2022
+[0] Operations sanity check succeeded.
+[77347] Network error while downloading 'http://sqlitestudio.pl/update-repo/windows//Updates.xml?167411752': Error transferring http://sqlitestudio.pl/update-repo/windows//Updates.xml?167411752 - server replied: Service Unavailable.
+[77356] Cannot fetch a valid version of Updates.xml from repository "": "error occurred while parsing element"
+[77365] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: ter set 13 09:14:14 2022
+[0] Operations sanity check succeeded.
+[75746] Network error while downloading 'http://sqlitestudio.pl/update-repo/windows//Updates.xml?382887303': Error transferring http://sqlitestudio.pl/update-repo/windows//Updates.xml?382887303 - server replied: Service Unavailable.
+[75889] Cannot fetch a valid version of Updates.xml from repository "": "error occurred while parsing element"
+[75965] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: ter set 20 11:18:28 2022
+[0] Operations sanity check succeeded.
+[7489] addDownloadable "MultiEditorImage.7z"
+[7489] addDownloadable "RegExpImport.7z"
+[7489] addDownloadable "JsonExport.7z"
+[7489] addDownloadable "ScriptingTcl.7z"
+[7489] addDownloadable "SqlEnterpriseFormatter.7z"
+[7489] addDownloadable "DbSqliteSystemData.7z"
+[7489] addDownloadable "SqlFormatterSimple.7z"
+[7489] addDownloadable "CsvImport.7z"
+[7489] addDownloadable "ConfigMigration.7z"
+[7489] addDownloadable "DbAndroid.7z"
+[7489] addDownloadable "DbSqlite2.7z"
+[7489] addDownloadable "XmlExport.7z"
+[7489] addDownloadable "CsvExport.7z"
+[7489] addDownloadable "DbSqliteWx.7z"
+[7489] addDownloadable "SqlExport.7z"
+[7489] addDownloadable "DbSqliteCipher.7z"
+[7489] addDownloadable "qt.7z"
+[7490] addDownloadable "Printing.7z"
+[7490] addDownloadable "PdfExport.7z"
+[7490] addDownloadable "sqlitestudio.7z"
+[7490] addDownloadable "HtmlExport.7z"
+************************************* Invoked: ter set 20 11:24:54 2022
+[0] Operations sanity check succeeded.
+[6067] addDownloadable "Printing.7z"
+[6079] addDownloadable "SqlEnterpriseFormatter.7z"
+[6079] addDownloadable "JsonExport.7z"
+[6118] addDownloadable "qt.7z"
+[6118] addDownloadable "ScriptingTcl.7z"
+[6118] addDownloadable "ConfigMigration.7z"
+[6118] addDownloadable "HtmlExport.7z"
+[6118] addDownloadable "XmlExport.7z"
+[6118] addDownloadable "PdfExport.7z"
+[6118] addDownloadable "CsvExport.7z"
+[6118] addDownloadable "RegExpImport.7z"
+[6118] addDownloadable "DbSqliteCipher.7z"
+[6118] addDownloadable "DbSqliteSystemData.7z"
+[6118] addDownloadable "SqlFormatterSimple.7z"
+[6118] addDownloadable "sqlitestudio.7z"
+[6118] addDownloadable "DbSqliteWx.7z"
+[6118] addDownloadable "MultiEditorImage.7z"
+[6119] addDownloadable "DbAndroid.7z"
+[6119] addDownloadable "CsvImport.7z"
+[6119] addDownloadable "SqlExport.7z"
+[6119] addDownloadable "DbSqlite2.7z"
+************************************* Invoked: qui set 22 07:57:53 2022
+[0] Operations sanity check succeeded.
+[4775] addDownloadable "DbAndroid.7z"
+[4775] addDownloadable "sqlitestudio.7z"
+[4775] addDownloadable "CsvExport.7z"
+[4776] addDownloadable "SqlEnterpriseFormatter.7z"
+[4776] addDownloadable "PdfExport.7z"
+[4776] addDownloadable "Printing.7z"
+[4776] addDownloadable "XmlExport.7z"
+[4776] addDownloadable "DbSqliteWx.7z"
+[4776] addDownloadable "SqlExport.7z"
+[4776] addDownloadable "DbSqliteCipher.7z"
+[4776] addDownloadable "DbSqlite2.7z"
+[4776] addDownloadable "ConfigMigration.7z"
+[4776] addDownloadable "DbSqliteSystemData.7z"
+[4776] addDownloadable "ScriptingTcl.7z"
+[4776] addDownloadable "SqlFormatterSimple.7z"
+[4776] addDownloadable "MultiEditorImage.7z"
+[4776] addDownloadable "CsvImport.7z"
+[4776] addDownloadable "HtmlExport.7z"
+[4776] addDownloadable "qt.7z"
+[4776] addDownloadable "RegExpImport.7z"
+[4776] addDownloadable "JsonExport.7z"
+************************************* Invoked: qui set 22 11:25:41 2022
+[0] Operations sanity check succeeded.
+[5608] addDownloadable "CsvImport.7z"
+[5610] addDownloadable "sqlitestudio.7z"
+[5613] addDownloadable "qt.7z"
+[5613] addDownloadable "RegExpImport.7z"
+[5613] addDownloadable "SqlFormatterSimple.7z"
+[5613] addDownloadable "MultiEditorImage.7z"
+[5613] addDownloadable "SqlExport.7z"
+[5613] addDownloadable "DbAndroid.7z"
+[5613] addDownloadable "DbSqlite2.7z"
+[5613] addDownloadable "ConfigMigration.7z"
+[5613] addDownloadable "DbSqliteWx.7z"
+[5613] addDownloadable "PdfExport.7z"
+[5613] addDownloadable "DbSqliteCipher.7z"
+[5613] addDownloadable "XmlExport.7z"
+[5613] addDownloadable "SqlEnterpriseFormatter.7z"
+[5614] addDownloadable "CsvExport.7z"
+[5614] addDownloadable "DbSqliteSystemData.7z"
+[5614] addDownloadable "ScriptingTcl.7z"
+[5614] addDownloadable "Printing.7z"
+[5614] addDownloadable "HtmlExport.7z"
+[5614] addDownloadable "JsonExport.7z"
+************************************* Invoked: ter set 27 07:44:17 2022
+[0] Operations sanity check succeeded.
+[7848] addDownloadable "DbSqliteCipher.7z"
+[7848] addDownloadable "DbSqliteSystemData.7z"
+[7848] addDownloadable "Printing.7z"
+[7849] addDownloadable "ScriptingTcl.7z"
+[7849] addDownloadable "XmlExport.7z"
+[7849] addDownloadable "qt.7z"
+[7849] addDownloadable "JsonExport.7z"
+[7849] addDownloadable "SqlEnterpriseFormatter.7z"
+[7849] addDownloadable "CsvExport.7z"
+[7849] addDownloadable "sqlitestudio.7z"
+[7849] addDownloadable "HtmlExport.7z"
+[7849] addDownloadable "SqlFormatterSimple.7z"
+[7849] addDownloadable "ConfigMigration.7z"
+[7849] addDownloadable "MultiEditorImage.7z"
+[7849] addDownloadable "DbSqliteWx.7z"
+[7849] addDownloadable "DbAndroid.7z"
+[7849] addDownloadable "RegExpImport.7z"
+[7849] addDownloadable "SqlExport.7z"
+[7849] addDownloadable "DbSqlite2.7z"
+[7849] addDownloadable "PdfExport.7z"
+[7850] addDownloadable "CsvImport.7z"
+************************************* Invoked: qua set 28 08:28:26 2022
+[0] Operations sanity check succeeded.
+[24131] addDownloadable "HtmlExport.7z"
+[24151] addDownloadable "JsonExport.7z"
+[24151] addDownloadable "DbSqliteWx.7z"
+[24151] addDownloadable "DbSqliteSystemData.7z"
+[24151] addDownloadable "CsvExport.7z"
+[24151] addDownloadable "Printing.7z"
+[24151] addDownloadable "ScriptingTcl.7z"
+[24151] addDownloadable "DbAndroid.7z"
+[24151] addDownloadable "CsvImport.7z"
+[24151] addDownloadable "SqlEnterpriseFormatter.7z"
+[24151] addDownloadable "RegExpImport.7z"
+[24286] addDownloadable "qt.7z"
+[24286] addDownloadable "DbSqliteCipher.7z"
+[24287] addDownloadable "ConfigMigration.7z"
+[24287] addDownloadable "SqlFormatterSimple.7z"
+[24287] addDownloadable "DbSqlite2.7z"
+[24287] addDownloadable "MultiEditorImage.7z"
+[24287] addDownloadable "XmlExport.7z"
+[24287] addDownloadable "sqlitestudio.7z"
+[24287] addDownloadable "SqlExport.7z"
+[24287] addDownloadable "PdfExport.7z"
+************************************* Invoked: qua set 28 08:29:15 2022
+[0] Operations sanity check succeeded.
+[5237] addDownloadable "SqlExport.7z"
+[5237] addDownloadable "CsvExport.7z"
+[5237] addDownloadable "ScriptingTcl.7z"
+[5237] addDownloadable "DbSqliteSystemData.7z"
+[5238] addDownloadable "DbSqliteCipher.7z"
+[5238] addDownloadable "XmlExport.7z"
+[5238] addDownloadable "sqlitestudio.7z"
+[5238] addDownloadable "JsonExport.7z"
+[5238] addDownloadable "HtmlExport.7z"
+[5238] addDownloadable "ConfigMigration.7z"
+[5238] addDownloadable "PdfExport.7z"
+[5238] addDownloadable "MultiEditorImage.7z"
+[5238] addDownloadable "SqlFormatterSimple.7z"
+[5238] addDownloadable "qt.7z"
+[5238] addDownloadable "DbAndroid.7z"
+[5238] addDownloadable "DbSqliteWx.7z"
+[5238] addDownloadable "DbSqlite2.7z"
+[5238] addDownloadable "SqlEnterpriseFormatter.7z"
+[5238] addDownloadable "CsvImport.7z"
+[5239] addDownloadable "Printing.7z"
+[5239] addDownloadable "RegExpImport.7z"
+************************************* Invoked: qui out 6 08:39:48 2022
+[0] Operations sanity check succeeded.
+[5320] addDownloadable "RegExpImport.7z"
+[5320] addDownloadable "DbSqliteWx.7z"
+[5320] addDownloadable "DbAndroid.7z"
+[5320] addDownloadable "MultiEditorImage.7z"
+[5320] addDownloadable "HtmlExport.7z"
+[5320] addDownloadable "SqlFormatterSimple.7z"
+[5320] addDownloadable "PdfExport.7z"
+[5320] addDownloadable "DbSqliteSystemData.7z"
+[5320] addDownloadable "CsvExport.7z"
+[5320] addDownloadable "ConfigMigration.7z"
+[5320] addDownloadable "Printing.7z"
+[5320] addDownloadable "qt.7z"
+[5320] addDownloadable "SqlEnterpriseFormatter.7z"
+[5320] addDownloadable "SqlExport.7z"
+[5320] addDownloadable "XmlExport.7z"
+[5320] addDownloadable "DbSqliteCipher.7z"
+[5320] addDownloadable "ScriptingTcl.7z"
+[5321] addDownloadable "sqlitestudio.7z"
+[5321] addDownloadable "DbSqlite2.7z"
+[5321] addDownloadable "CsvImport.7z"
+[5321] addDownloadable "JsonExport.7z"
