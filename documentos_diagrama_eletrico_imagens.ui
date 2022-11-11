@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>documentos_diagrama_eletrico</class>
+ <widget class="QMainWindow" name="documentos_diagrama_eletrico">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_home">
+    <property name="geometry">
+     <rect>
+      <x>464</x>
+      <y>675</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-style: outset;
+border-color: rgb(0, 0, 0);
+border-width:5px;
+font: 75 65pt &quot;Bosch Sans Bold&quot;;
+border-radius: 0px;
+background-color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Home.Documentos.png</normaloff>imagens/Home.Documentos.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_imagem">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>1191</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Diagrama_eletrico_01.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_seta_direita">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>670</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-style: outset/inside;
+border-color: rgb(0, 0, 0);
+border-width:0px;
+font: 75 65pt &quot;Bosch Sans Bold&quot;;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Seta Preta para direita.png</normaloff>imagens/Seta Preta para direita.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_seta_esquerda">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>680</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset/inside;
+border-color: rgb(0, 0, 0);
+border-width:0px;
+font: 75 65pt &quot;Bosch Sans Bold&quot;;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imagens/Seta Preta para esquerda.png</normaloff>imagens/Seta Preta para esquerda.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_paginas">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>691</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 20pt &quot;Bosch Sans Bold&quot;;
+border-style: outset;
+border-color: rgb(0, 0, 0);
+border-width:5px;</string>
+    </property>
+    <property name="text">
+     <string>PÁGINA 01/03</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

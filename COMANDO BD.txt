@@ -1,0 +1,14 @@
+import sqlite3
+
+banco = sqlite3.connect("Banco.db")
+
+cursor = banco.cursor()
+
+#cursor.execute("INSERT INTO Dados (ID_Cartao, Nome, Classe, EDV)  VALUES('Tag#003','Ana','Aprendiz',92896102)")
+
+cursor.execute("UPDATE Dados Set ID_Cartao = 'Tag#001' WHERE ID = 1")
+
+banco.commit()
+
+cursor.execute("SELECT * FROM Dados")
+print(cursor.fetchall())

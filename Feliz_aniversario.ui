@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Feliz_aniversario</class>
+ <widget class="QMainWindow" name="Feliz_aniversario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1290</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1290</width>
+    <height>841</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Label_Borda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>783</y>
+      <width>1290</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/Imagens/Borda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_obrigado">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>620</y>
+      <width>441</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>45</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(234, 229, 239);
+border-width:0px;
+
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>OBRIGADO!!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_patinho">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>330</y>
+      <width>211</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 229, 239);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_texto">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>300</y>
+      <width>691</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-width:0px;
+font: 75 18pt &quot;Bosch Sans Bold&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Você pensava que a gente ia esquecer seu dia,
+que iríamos permitir que ele passasse em branco.
+Jamais!
+
+É um privilégio contar com seu profissionalismo 
+e caráter todos os dias, por isso agradecemos
+profundamente seu esforço.
+Parabéns por mais um ano de vida, sucesso!
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_feliz_aniversario">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>30</y>
+      <width>431</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Feliz_aniversario.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_logo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>171</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Logo_Access_control_simples.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_access_control">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Access_control.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_gif">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>601</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_gif_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>0</y>
+      <width>591</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_nome">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>210</y>
+      <width>721</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-width:0px;
+font: 75 20pt &quot;Bosch Sans Bold&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Fulano</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <zorder>label_gif_2</zorder>
+   <zorder>label_gif</zorder>
+   <zorder>Label_Borda</zorder>
+   <zorder>botao_obrigado</zorder>
+   <zorder>label_patinho</zorder>
+   <zorder>label_texto</zorder>
+   <zorder>label_feliz_aniversario</zorder>
+   <zorder>label_logo</zorder>
+   <zorder>label_access_control</zorder>
+   <zorder>label_nome</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1290</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
